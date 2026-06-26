@@ -2,6 +2,10 @@
 
 Switch GitHub Copilot CLI models to your local LLM setup with one command.
 
+## Reason
+
+GitHub Copilot CLI makes it difficult to switch models on the fly, and there are several environment variables you need to adjust any time you want to try different models. Switchpilot allows you to add models to a json registry that you can place in your `%USERPROFILE%\.copilot` directory and modify as needed, and then simply run the PowerShell commands to easily switch to those models.
+
 ## Prerequisites
 
 - Windows 10/11 with PowerShell 5.1 or PowerShell 7+
