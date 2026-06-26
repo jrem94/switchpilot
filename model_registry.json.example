@@ -1,0 +1,12 @@
+{
+  "qwen-coder-3b": {
+    "model": "qwen2.5-coder:3b",
+    "providerType": "openai",
+    "providerUrl": "http://localhost:11434/v1",
+    "api_key": "ollama",
+    "context": 32768,
+    "output": 8192,
+    "offline": true,
+    "compactionThreshold": 0.9
+  }
+}
